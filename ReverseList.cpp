@@ -42,7 +42,11 @@ public:{
 };
 
 /*Note:
-*use if statement to check if the list is empty or only one  *node, return immediately if yes.
+*use if statement to check if the list is empty or only one
+*node, return immediately if yes.
 *Read one time the old list, keep adding to the front of new       
-*list, the first node to add is the special case, get a temp            *pointer to keep track of the current first node. need to add one *more time for the last node because the while loop stop if the *head == NULL, so the last element wont be added in the loop, *need  to add it mannually outside the loop. 
+*list, the first node to add is the special case, get a temp pointer to keep
+*track of the current first node. need to add one more time for the last node
+*because the while loop stop if the head == NULL, so the last element wont be
+*added in the loop,need to add it mannually outside the loop. 
 */
