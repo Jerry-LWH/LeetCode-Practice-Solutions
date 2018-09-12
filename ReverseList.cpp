@@ -13,44 +13,36 @@
  */
 class ReverseList {
 	
-public:
-    ListNode* reverseList(ListNode* head) {
-        if(head == NULL || head ->next==NULL){
+public:{
+	 ListNode* reverseList(ListNode* head) {
+        if(head ==NULL || head ->next==NULL){
             return head;
-        }
-        
-        int length = 1;
-        ListNode * temp = head;
-        ListNode * currOfNewList = NULL;
-        ListNode * NewList = NULL;
-        
-        while(temp->next != NULL){
-            temp = temp->next;
-            length++;
-        }
-        temp = head; //reset temp
-        
-        while(length !=0){
-            ListNode* prev =NULL;
-            ListNode* curr = head;
-            while(curr ->next != NULL){  //get the last two node
-                prev = curr;
-                curr = curr->next;
-            }
-            if(NewList == NULL){
-                NewList = curr;
-                currOfNewList = curr;
-                prev -> next =NULL;
-            }else{
-                currOfNewList -> next = curr;
-                currOfNewList = currOfNewList -> next;
-                if(length!=1){    
-                    prev->next = NULL;
+        }else{
+          //  ListNode * temphead = head;
+            ListNode * reversedList = NULL;
+            ListNode * temp = NULL;
+           while(head -> next !=NULL){
+               if(reversedList == NULL){   //adding first Node
+                    reversedList = head;
+                    temp = head;
+                    head = head->next;
+                    reversedList -> next = NULL;
+                }else{
+                    reversedList = head;
+                    head = head->next; 
+                    reversedList->next = temp;
+                    temp=reversedList;
                  }
-            }
-            length--;
+           }
+            reversedList = head;
+            reversedList ->next = temp;
+            return reversedList;
         }
-        return NewList;
-        
-    }  
+    }
 };
+
+/*Note:
+*use if statement to check if the list is empty or only one  *node, return immediately if yes.
+*Read one time the old list, keep adding to the front of new       
+*list, the first node to add is the special case, get a temp            *pointer to keep track of the current first node. need to add one *more time for the last node because the while loop stop if the *head == NULL, so the last element wont be added in the loop, *need  to add it mannually outside the loop. 
+*/
