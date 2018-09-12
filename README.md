@@ -11,3 +11,5 @@ Problem Solved
    4.WordSearch
    
    5.ReverseInteger (with overfloat check)
+
+   6.Validate Binery Search Tree (isBST)
