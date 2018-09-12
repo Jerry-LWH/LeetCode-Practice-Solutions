@@ -13,3 +13,11 @@ Problem Solved
    5.ReverseInteger (with overfloat check)
 
    6.Validate Binery Search Tree (isBST)
+
+   7.RomanToInt
+
+   8.isPalindrome
+
+   9.LongestCommonPrefix
+
+   10.ReverseLinkedList
