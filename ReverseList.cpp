@@ -13,32 +13,29 @@
  */
 class ReverseList {
 	
-public:{
-	 ListNode* reverseList(ListNode* head) {
-        if(head ==NULL || head ->next==NULL){
-            return head;
-        }else{
-          //  ListNode * temphead = head;
-            ListNode * reversedList = NULL;
-            ListNode * temp = NULL;
-           while(head -> next !=NULL){
-               if(reversedList == NULL){   //adding first Node
-                    reversedList = head;
-                    temp = head;
-                    head = head->next;
-                    reversedList -> next = NULL;
-                }else{
-                    reversedList = head;
-                    head = head->next; 
-                    reversedList->next = temp;
-                    temp=reversedList;
-                 }
-           }
-            reversedList = head;
-            reversedList ->next = temp;
-            return reversedList;
-        }
+public:
+  ListNode* reverseList(ListNode* head) {
+    if(head ==NULL || head ->next==NULL){
+      return head;
+    }else{
+      ListNode * reversedList = NULL;
+      ListNode * temp = NULL;
+      while(head !=NULL){
+	if(reversedList == NULL){   //adding first Node
+	  reversedList = head;
+	  temp = head;
+	  head = head->next;
+	  reversedList -> next = NULL;
+	}else{
+	  reversedList = head;
+	  head = head->next; 
+	  reversedList->next = temp;
+	  temp=reversedList;
+	}
+      }
+      return reversedList;
     }
+  }
 };
 
 /*Note:
