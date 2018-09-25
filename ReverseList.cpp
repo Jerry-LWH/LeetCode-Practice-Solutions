@@ -2,8 +2,7 @@
  * 
  * Question:
  * Reverse a singly linked list
- * 
- * 
+ *  
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
@@ -14,33 +13,32 @@
 class ReverseList {
 	
 public:{
-	 ListNode* reverseList(ListNode* head) {
-        if(head ==NULL || head ->next==NULL){
-            return head;
-        }else{
-          //  ListNode * temphead = head;
-            ListNode * reversedList = NULL;
-            ListNode * temp = NULL;
-           while(head -> next !=NULL){
-               if(reversedList == NULL){   //adding first Node
-                    reversedList = head;
-                    temp = head;
-                    head = head->next;
-                    reversedList -> next = NULL;
-                }else{
-                    reversedList = head;
-                    head = head->next; 
-                    reversedList->next = temp;
-                    temp=reversedList;
-                 }
-           }
-            reversedList = head;
-            reversedList ->next = temp;
+  ListNode* reverseList(ListNode* head) {
+    if(head ==NULL || head ->next==NULL){
+      return head;
+    }else{
+      ListNode * reversedList = NULL;
+      ListNode * temp = NULL;
+      while(head -> next !=NULL){
+	if(reversedList == NULL){   //adding first Node
+	  reversedList = head;
+	  temp = head;
+	  head = head->next;
+	  reversedList -> next = NULL;
+	}else{
+	  reversedList = head;
+	  head = head->next; 
+	  reversedList->next = temp;
+	  temp=reversedList;
+	}
+      }
+      reversedList = head;
+      reversedList ->next = temp;
             return reversedList;
-        }
+    }
     }
 };
-
+  
 /*Note:
 *use if statement to check if the list is empty or only one
 *node, return immediately if yes.
