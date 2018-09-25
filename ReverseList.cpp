@@ -12,14 +12,14 @@
  */
 class ReverseList {
 	
-public:{
+public:
   ListNode* reverseList(ListNode* head) {
     if(head ==NULL || head ->next==NULL){
       return head;
     }else{
       ListNode * reversedList = NULL;
       ListNode * temp = NULL;
-      while(head -> next !=NULL){
+      while(head !=NULL){
 	if(reversedList == NULL){   //adding first Node
 	  reversedList = head;
 	  temp = head;
@@ -32,11 +32,9 @@ public:{
 	  temp=reversedList;
 	}
       }
-      reversedList = head;
-      reversedList ->next = temp;
-            return reversedList;
+      return reversedList;
     }
-    }
+  }
 };
   
 /*Note:
@@ -44,7 +42,5 @@ public:{
 *node, return immediately if yes.
 *Read one time the old list, keep adding to the front of new       
 *list, the first node to add is the special case, get a temp pointer to keep
-*track of the current first node. need to add one more time for the last node
-*because the while loop stop if the head == NULL, so the last element wont be
-*added in the loop,need to add it mannually outside the loop. 
+*track of the current first node.  
 */
