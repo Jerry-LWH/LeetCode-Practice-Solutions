@@ -26,5 +26,6 @@ Problem Solved
 
    12.PalindromeLinkedList
 
-  
+   13.SwapPairNodes  
 
+   14.RemoveDuplicates(SortedArray)
