@@ -28,4 +28,6 @@ Problem Solved
 
    13.SwapPairNodes  
 
-   14.RemoveDuplicates(SortedArray)
+   14.RemoveDuplicates(Sorted Array)
+
+   15.DeleteDuplicates(Sorted Linked List)
