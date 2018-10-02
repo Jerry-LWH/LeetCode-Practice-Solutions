@@ -1,4 +1,4 @@
-/**Auther: Wenhao Lin
+/**Auther: Lin, Wenhao
  *Question: Given a sorted linked list, delete all duplicates such that each element appear only once.
  *
  * Definition for singly-linked list.
