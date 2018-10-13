@@ -18,7 +18,7 @@
  *Output: [1,0,0]
  */
  
-class Solution {
+class plusOne {
     public int[] plusOne(int[] digits) {
         int myArray[] = new int[digits.length+1];   //for in case if off 99 + 1 => 100 (need a new array with one extra space)
         int carry = 0;
