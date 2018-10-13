@@ -40,4 +40,6 @@ Problem Solved
 
    20.NoneDecreasingArray
 
-   21.plusOne.java
+   21.plusOne
+
+   22.findPivotIndex
