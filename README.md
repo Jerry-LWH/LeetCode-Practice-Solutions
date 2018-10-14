@@ -43,3 +43,5 @@ Problem Solved
    21.plusOne
 
    22.findPivotIndex
+
+   23.addBinery
