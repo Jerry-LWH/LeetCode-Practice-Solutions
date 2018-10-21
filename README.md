@@ -45,3 +45,5 @@ Problem Solved
    22.findPivotIndex
 
    23.addBinery
+
+   24.validateBinerySearchTree(important)
