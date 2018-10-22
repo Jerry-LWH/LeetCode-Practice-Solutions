@@ -47,3 +47,5 @@ Problem Solved
    23.addBinery
 
    24.validateBinerySearchTree(important)
+
+   25.MaximumAverageSubarray
