@@ -49,3 +49,5 @@ Problem Solved
    24.validateBinerySearchTree(important)
 
    25.MaximumAverageSubarray
+
+   26.ValidParentesis
