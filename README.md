@@ -51,3 +51,5 @@ Problem Solved
    25.MaximumAverageSubarray
 
    26.ValidParentesis
+
+   27.Move Zeros
