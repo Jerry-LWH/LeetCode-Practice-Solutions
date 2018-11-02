@@ -45,5 +45,13 @@ Problem Solved
    22.findPivotIndex
 
    23.addBinery
+   
+   24.validateBinerySearchTree(important)
 
-   24.countingBits
+   25.MaximumAverageSubarray
+
+   26.ValidParentesis
+
+   27.Move Zeros
+
+   28.countingBits
