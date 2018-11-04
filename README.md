@@ -55,3 +55,5 @@ Problem Solved
    27.Move Zeros
 
    28.countingBits
+
+   29.wordParrern
