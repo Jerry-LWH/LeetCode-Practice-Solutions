@@ -57,3 +57,5 @@ Problem Solved
    28.countingBits
 
    29.wordParrern
+
+   30.removeLinkedListElement
