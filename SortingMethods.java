@@ -1,16 +1,4 @@
 public class SortingMethods {
-	public static void main(String[] args) {
-		int[] array = {2,3,5,1,29,24,66,12,34,2,3,5,1,29,24,66,12,34};
-		bubbleSort(array);
-		
-		for(int i : array) {
-			System.out.print(i+" ");
-		}
-		int[] array2 = {1};
-		selectionSort(array2);
-
-	}//main
-	
 	//**BubbleSort**//
 	/* Time ComplexityO(n^2)
 	 * The algorithm works by comparing each item in the list with the item next to it,
@@ -46,13 +34,28 @@ public class SortingMethods {
 			for(int j = i+1; j< nums.length; j++) {
 				if(nums[j] < nums[minIndex]) {
 					minIndex = j;
-					int temp = nums[i];
-					nums[i] = nums[minIndex];
-					nums[minIndex]=temp;
 				}
 			}
+			int temp = nums[i];
+			nums[i]=nums[minIndex];
+			nums[minIndex]=temp;
 		}
 		return nums;
 	}
+
+    //loop through the array and keep index 0 to index i sorted;
+    //j = i, and loop backand keep swapping if nums[j]< nums[j-1];
+    //j is decrementing 
+    public static void insertionSort(int[] nums){
+	for(int i = 0; i < nums.length; i ++){
+	    for(int j = i; j>0; j--){
+		if(nums[j]< nums[j-1]){
+		    int temp = nums[j];
+		    nums[j]= nums[j-1];
+		    nums[j-1]=temp;
+		}
+	    }
+	}
+    }//insertionSort
 }
 
