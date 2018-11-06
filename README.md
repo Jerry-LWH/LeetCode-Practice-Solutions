@@ -61,3 +61,5 @@ Problem Solved
    30.removeLinkedListElement
 
    31.Third Max Number
+
+   32.Remove Nth Node from the end of list
