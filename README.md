@@ -63,3 +63,5 @@ Problem Solved
    31.Third Max Number
 
    32.Remove Nth Node from the end of list
+
+   33.contain duplicates
