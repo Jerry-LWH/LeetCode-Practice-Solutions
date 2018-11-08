@@ -65,3 +65,5 @@ Problem Solved
    32.Remove Nth Node from the end of list
 
    33.contain duplicates
+
+   34.Add Digits
