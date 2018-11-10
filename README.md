@@ -67,3 +67,5 @@ Problem Solved
    33.contain duplicates
 
    34.Add Digits
+
+   35.Add Strings
