@@ -71,3 +71,5 @@ Problem Solved
    35.Add Strings
 
    36.Self driving numbers
+
+   37.implement Queue with stack
