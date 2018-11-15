@@ -77,3 +77,5 @@ Problem Solved
    38.Add two numbers
 
    39.Add two Numbers hard
+
+   40.Implement Stack Using Queues
