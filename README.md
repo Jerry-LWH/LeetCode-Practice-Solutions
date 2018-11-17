@@ -81,3 +81,5 @@ Problem Solved
    40.Implement Stack Using Queues
 
    41.Unique Email Address
+
+   42.Flipping an Image
