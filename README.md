@@ -79,3 +79,5 @@ Problem Solved
    39.Add two Numbers hard
 
    40.Implement Stack Using Queues
+
+   41.Unique Email Address
