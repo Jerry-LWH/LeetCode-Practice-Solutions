@@ -83,3 +83,5 @@ Problem Solved
    41.Unique Email Address
 
    42.Flipping an Image
+
+   43.Masking Personal Imformation
