@@ -87,3 +87,5 @@ Problem Solved
    43.Masking Personal Imformation
 
    44.Find and Replace in String
+
+   45.Binary Tree Postirder Traversal
