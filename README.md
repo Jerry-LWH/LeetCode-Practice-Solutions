@@ -89,3 +89,5 @@ Problem Solved
    44.Find and Replace in String
 
    45.Binary Tree Postirder Traversal
+
+   46.Binary Tree Preorder Traversal
