@@ -93,3 +93,5 @@ Problem Solved
    46.Binary Tree Preorder Traversal
 
    47.Find Single Number
+
+   48. Number of Islands
